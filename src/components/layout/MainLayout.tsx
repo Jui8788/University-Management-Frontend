@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 // } from "@ant-design/icons";
 // import { createElement } from "react";
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 
 // const items: MenuProps["items"] = [
 //   {
@@ -54,9 +54,6 @@ const MainLayout = () => {
             <Outlet />
           </div>
         </Content>
-        <Footer style={{ textAlign: "center" }}>
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
-        </Footer>
       </Layout>
     </Layout>
   );
