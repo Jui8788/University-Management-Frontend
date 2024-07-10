@@ -89,3 +89,14 @@ const newArray1 = adminPaths2.reduce((acc, item) => {
 }, []);
 
 console.log(newArray1);
+
+const obj = {
+  name: 'Mezba',
+  role: 'mentor',
+  age: 18,
+  greet: () => {
+    return 'Hello World';
+  },
+};
+
+console.log(JSON.stringify(obj));
